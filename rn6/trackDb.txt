@@ -30,3 +30,67 @@ parent R1
 type bigWig
 color 156,172,255
 
+track R2
+container multiWig
+shortLabel R2
+longLabel ribosome footprinting R2
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track forward
+bigDataUrl JH140327.s_1_ATCACGA.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R2
+type bigWig
+color 255,154,168
+
+track reverse
+bigDataUrl JH140327.s_1_ATCACGA.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R2
+type bigWig
+color 156,172,255
+
+track R3
+container multiWig
+shortLabel R3
+longLabel ribosome footprinting R3
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track forward
+bigDataUrl JH140327.s_1_TGACCAA.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R3
+type bigWig
+color 255,154,168
+
+track reverse
+bigDataUrl JH140327.s_1_TGACCAA.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R3
+type bigWig
+color 156,172,255
+
