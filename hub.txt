@@ -1,0 +1,6 @@
+hub RPF
+shortLabel RPF
+longLabel Ribosome footprinting
+genomesFile genomes.txt
+email NA
+descriptionUrl NA

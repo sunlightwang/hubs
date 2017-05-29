@@ -1,0 +1,32 @@
+track R1
+container multiWig
+shortLabel R1
+longLabel ribosome footprinting R1
+type bigWig
+visibility full
+maxHeightPixels 150:128:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track forward
+bigDataUrl JH140327.s_1_ACTTGAA.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R1
+type bigWig
+color 156,172,255
+
+track reverse
+bigDataUrl JH140327.s_1_ACTTGAA.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R1
+type bigWig
+color 255,154,168
+
