@@ -14,7 +14,7 @@ autoScale on
 alwaysZero on
 dragAndDrop subtracks
 
-track forward
+track R1_forward
 bigDataUrl JH140327.s_1_ACTTGAA.fwd.bigWig
 shortLabel RPF fwd
 longLabel RPF fwd
@@ -22,7 +22,7 @@ parent R1
 type bigWig
 color 255,154,168
 
-track reverse
+track R1_reverse
 bigDataUrl JH140327.s_1_ACTTGAA.rev.bigWig
 shortLabel RPF rvs
 longLabel RPF rvs
@@ -46,7 +46,7 @@ autoScale on
 alwaysZero on
 dragAndDrop subtracks
 
-track forward
+track R2_forward
 bigDataUrl JH140327.s_1_ATCACGA.fwd.bigWig
 shortLabel RPF fwd
 longLabel RPF fwd
@@ -54,7 +54,7 @@ parent R2
 type bigWig
 color 255,154,168
 
-track reverse
+track R2_reverse
 bigDataUrl JH140327.s_1_ATCACGA.rev.bigWig
 shortLabel RPF rvs
 longLabel RPF rvs
@@ -78,7 +78,7 @@ autoScale on
 alwaysZero on
 dragAndDrop subtracks
 
-track forward
+track R3_forward
 bigDataUrl JH140327.s_1_TGACCAA.fwd.bigWig
 shortLabel RPF fwd
 longLabel RPF fwd
@@ -86,7 +86,7 @@ parent R3
 type bigWig
 color 255,154,168
 
-track reverse
+track R3_reverse
 bigDataUrl JH140327.s_1_TGACCAA.rev.bigWig
 shortLabel RPF rvs
 longLabel RPF rvs
