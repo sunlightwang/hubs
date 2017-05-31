@@ -1,0 +1,96 @@
+track R1
+container multiWig
+shortLabel R1
+longLabel ribosome footprinting R1
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track R1_forward
+bigDataUrl JH_186.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R1
+type bigWig
+color 255,154,168
+
+track R1_reverse
+bigDataUrl JH_186.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R1
+type bigWig
+color 156,172,255
+
+track R2
+container multiWig
+shortLabel R2
+longLabel ribosome footprinting R2
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track R2_forward
+bigDataUrl JH_198.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R2
+type bigWig
+color 255,154,168
+
+track R2_reverse
+bigDataUrl JH_198.rev.bigWig 
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R2
+type bigWig
+color 156,172,255
+
+track R3
+container multiWig
+shortLabel R3
+longLabel ribosome footprinting R3
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track R3_forward
+bigDataUrl JH_200.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent R3
+type bigWig
+color 255,154,168
+
+track R3_reverse
+bigDataUrl JH_200.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent R3
+type bigWig
+color 156,172,255
+
