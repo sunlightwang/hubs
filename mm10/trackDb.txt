@@ -94,3 +94,35 @@ parent R3
 type bigWig
 color 156,172,255
 
+track multi_allow_R1
+container multiWig
+shortLabel multi_allow_R1
+longLabel ribosome footprinting multi allow R1
+type bigWig
+visibility full
+maxHeightPixels 150:96:20
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.5
+configurable on
+autoScale on
+alwaysZero on
+dragAndDrop subtracks
+
+track multi_allow_R1_forward
+bigDataUrl JH_186.multi_allow.fwd.bigWig
+shortLabel RPF fwd
+longLabel RPF fwd
+parent multi_allow_R1
+type bigWig
+color 255,154,168
+
+track multi_allow_R1_reverse
+bigDataUrl JH_186.multi_allow.rev.bigWig
+shortLabel RPF rvs
+longLabel RPF rvs
+parent multi_allow_R1
+type bigWig
+color 156,172,255
+
